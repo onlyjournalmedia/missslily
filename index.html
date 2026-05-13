@@ -55,13 +55,6 @@
         border: 0;
       }
 
-      @media (max-width: 639px) {
-        .video {
-          aspect-ratio: auto;
-          height: clamp(300px, 58svh, 460px);
-        }
-      }
-
       p {
         max-width: 560px;
         margin: 0 auto;
@@ -161,9 +154,10 @@
     <main>
       <div class="video">
         <iframe
-          src="https://drive.google.com/file/d/1oO9BnrS2WiXn5_96V4abZVpLX0Jw76MT/preview"
-          title="Google Drive video player"
-          allow="autoplay; encrypted-media; fullscreen; picture-in-picture"
+          src="https://player.mediadelivery.net/embed/660114/504833d8-d955-4ee2-a91e-f46326a71285?autoplay=true&loop=false&muted=true&preload=true&responsive=true"
+          loading="lazy"
+          title="Video player"
+          allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture"
           allowfullscreen>
         </iframe>
       </div>
